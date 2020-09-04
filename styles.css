@@ -1,0 +1,166 @@
+/* CSS Document */
+/* Fonts ------------------------------------------------------------ #27472F*/
+body {
+  font-family: 'Aldrich';
+  background-color: Black;
+}
+
+/* default config */
+.responsive {
+  padding-left: 3em;
+  align: left;
+}
+
+.leftlogo {
+  height: 10vmin;
+  style: left;
+  padding-right:1.5em;
+  float:left;
+}
+
+/*Heading*/
+h1x {
+  font-family: 'Aldrich';
+  text-decoration: underline;
+  font-size: 3.5em;
+  color: Red;
+  font-weight: 200;
+  text-shadow: 3px 1px 0px LightGrey;
+}
+
+/* Subtitle*/
+h2x {
+  font-family: 'Aldrich';
+  font-size: 2em;
+  color: lightblue;
+}
+
+div.center {
+  text-align: center;
+}
+
+/*Sub-subtitle*/
+h3x {
+  font-family: 'Aldrich';
+  font-size: 1.5em;
+  color: lightblue;
+}
+
+/*Text at Bottom of Page*/
+h4x {
+	font-family: 'Aldrich';
+	font-size: 1em;
+	transform: translate(-50%, -50%);
+	right:80%;
+	margin: 0px;
+	color: aliceblue;
+	position: fixed;
+	top: 1em;
+  text-align: center;
+}
+
+/*Text at Bottom of Nav Page*/
+h5x {
+  font-family: 'Aldrich';
+	font-size: 1em;
+	transform: translate(-50%, -50%);
+	left:1%;
+	margin: 0px;
+	color: aliceblue;
+	position: relative;
+	bottom: 5px;
+  text-align: center;
+}
+
+/*Rotated Title*/
+h6x {
+  font-family: 'Aldrich';
+	font-size: 2em;
+	color: aliceblue;
+  text-align: left;
+  margin-left: 0em;
+}
+
+/*Plain White Text in Buttons*/
+h7x {
+  font-family: 'Aldrich';
+	font-size: 2em;
+	color: aliceblue;
+  text-align: left;
+}
+
+/*Plain Yellow Text for website*/
+h8x {
+	font-family: 'Aldrich';
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 30px Black;
+}
+
+h9x {
+  font-family: 'Aldrich';
+  font-size: 2em;
+  color: aliceblue;
+  text-shadow: 2px 2px #000000;
+  text-align: center;
+}
+/*ETC Image at side*/
+hinv {
+  position: fixed;
+  visibility: hidden;
+  right: -0.9em;
+  z-index: 1;
+  top: 1em;
+}
+
+/*Logo images*/
+hinv2 {
+  z-index: 1;
+  height: 3%;
+}
+
+
+
+
+
+
+
+/* ScrollBar------------------------------------------------------------------*/
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  height: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: Red;
+  border-radius: 10px;
+  background-color: Red;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: blue;
+}
+
+/* Unknown -------------------------------------------------------------------*/
+#main {
+padding: 0em;
+}
+
+/* Responsive Change For Desktop to Centre-ish--------------------------------*/
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    [class="responsive"] {
+        padding-left: 43%;
+        background: linear-gradient(to bottom , rgba(0, 0, 0, 1), rgba(250, 0, 0, 0.3)),  url("images/hubble_s.jpg");
+        background-position: right top;
+	}}
